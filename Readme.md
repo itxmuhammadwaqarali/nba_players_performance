@@ -1,25 +1,28 @@
 # Obesity Levels Estimation Model
 
-This project develops a machine learning model to estimate obesity levels based on dietary habits and physical condition. The dataset includes records from Mexico, Peru, and Colombia, with 17 attributes and 2111 records. Obesity levels are classified into categories such as Insufficient Weight, Normal Weight, Overweight, and various Obesity types.
+This project builds a regression model to predict obesity levels based on dietary habits and physical conditions. The dataset contains 17 attributes and 2111 records from individuals in Mexico, Peru, and Colombia. Obesity levels are categorized into Insufficient Weight, Normal Weight, Overweight Levels, and various Obesity Types.
 
 ---
 
+## What Was Done
 
 1. **Exploratory Data Analysis (EDA)**:
-   - Analyzed dataset distribution and class overlaps.
-   - Identified patterns in diet and physical activity influencing obesity.
+   - Explored dataset trends and relationships between features.
+   - Analyzed the impact of dietary habits and physical conditions on obesity levels.
 
-2. **Modeling**:
-   - Implemented four sub-models targeting specific obesity categories:
-     - Insufficient-Normal Weight
-     - Overweight Levels
-     - Obesity Types
-   - Used clustering algorithms to estimate probabilities for each level.
+2. **Feature Engineering**:
+   - Created new features to improve predictions.
+   - Standardized and normalized data for model readiness.
 
-3. **Results**:
-   - Improved classification accuracy by addressing class overlaps.
-   - Provided detailed insights into key obesity predictors.
+3. **Modeling**:
+   - Trained regression models to estimate obesity levels:
+     - Linear Regression
+     - Ridge Regression
+   - Evaluated models using R-squared and Mean Absolute Error (MAE).
 
+4. **Results**:
+   - Provided accurate predictions of obesity levels.
+   - Highlighted key features influencing obesity levels.
 
 ---
 
